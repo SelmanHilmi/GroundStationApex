@@ -28,7 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.angularGauge1 = new LiveCharts.WinForms.AngularGauge();
             this.SuspendLayout();
+            // 
+            // angularGauge1
+            // 
+            this.angularGauge1.Location = new System.Drawing.Point(274, 129);
+            this.angularGauge1.Name = "angularGauge1";
+            this.angularGauge1.Size = new System.Drawing.Size(200, 100);
+            this.angularGauge1.TabIndex = 0;
+            this.angularGauge1.Text = "angularGauge1";
             // 
             // Form1
             // 
@@ -36,6 +45,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(46)))));
             this.ClientSize = new System.Drawing.Size(1896, 1080);
+            this.Controls.Add(this.angularGauge1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
             this.Text = "APEX AMK";
@@ -44,6 +54,8 @@
         }
 
         #endregion
+
+        private LiveCharts.WinForms.AngularGauge angularGauge1;
     }
 }
 
