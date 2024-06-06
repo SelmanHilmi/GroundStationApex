@@ -22,5 +22,15 @@ namespace Ground_Station_of_Apex
         {
 
         }
+
+        private void gMapControl1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void glControl1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

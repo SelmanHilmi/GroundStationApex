@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\onurm\\Documents\\GitHub\\GroundStationApex\\Ground Station of Apex\\",
+  "WorkspaceRootPath": "C:\\Users\\selma\\OneDrive\\Belgeler\\GitHub\\yeristasyonu2\\Ground Station of Apex\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D6571522-7605-44F8-8D4F-80868EBDE661}|Ground Station of Apex\\Ground Station of Apex.csproj|c:\\users\\onurm\\documents\\github\\groundstationapex\\ground station of apex\\ground station of apex\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D6571522-7605-44F8-8D4F-80868EBDE661}|Ground Station of Apex\\Ground Station of Apex.csproj|c:\\users\\selma\\onedrive\\belgeler\\github\\yeristasyonu2\\ground station of apex\\ground station of apex\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D6571522-7605-44F8-8D4F-80868EBDE661}|Ground Station of Apex\\Ground Station of Apex.csproj|solutionrelative:ground station of apex\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6571522-7605-44F8-8D4F-80868EBDE661}|Ground Station of Apex\\Ground Station of Apex.csproj|C:\\Users\\onurm\\Documents\\GitHub\\GroundStationApex\\Ground Station of Apex\\ground station of apex\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D6571522-7605-44F8-8D4F-80868EBDE661}|Ground Station of Apex\\Ground Station of Apex.csproj|C:\\Users\\selma\\OneDrive\\Belgeler\\GitHub\\yeristasyonu2\\Ground Station of Apex\\ground station of apex\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6571522-7605-44F8-8D4F-80868EBDE661}|Ground Station of Apex\\Ground Station of Apex.csproj|solutionrelative:ground station of apex\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,11 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Bookmark",
@@ -30,7 +30,7 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:1924764005:0:{13143d73-808b-4a2f-bebb-ccbe9c93fe37}"
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Bookmark",
@@ -41,16 +41,12 @@
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\onurm\\Documents\\GitHub\\GroundStationApex\\Ground Station of Apex\\Ground Station of Apex\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\selma\\OneDrive\\Belgeler\\GitHub\\yeristasyonu2\\Ground Station of Apex\\Ground Station of Apex\\Form1.cs",
               "RelativeDocumentMoniker": "Ground Station of Apex\\Form1.cs",
-              "ToolTip": "C:\\Users\\onurm\\Documents\\GitHub\\GroundStationApex\\Ground Station of Apex\\Ground Station of Apex\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\selma\\OneDrive\\Belgeler\\GitHub\\yeristasyonu2\\Ground Station of Apex\\Ground Station of Apex\\Form1.cs [Design]",
               "RelativeToolTip": "Ground Station of Apex\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-26T11:25:19.008Z",
@@ -60,13 +56,14 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\onurm\\Documents\\GitHub\\GroundStationApex\\Ground Station of Apex\\Ground Station of Apex\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\selma\\OneDrive\\Belgeler\\GitHub\\yeristasyonu2\\Ground Station of Apex\\Ground Station of Apex\\Form1.cs",
               "RelativeDocumentMoniker": "Ground Station of Apex\\Form1.cs",
-              "ToolTip": "C:\\Users\\onurm\\Documents\\GitHub\\GroundStationApex\\Ground Station of Apex\\Ground Station of Apex\\Form1.cs",
+              "ToolTip": "C:\\Users\\selma\\OneDrive\\Belgeler\\GitHub\\yeristasyonu2\\Ground Station of Apex\\Ground Station of Apex\\Form1.cs",
               "RelativeToolTip": "Ground Station of Apex\\Form1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAjwCAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T13:51:39.104Z"
+              "WhenOpened": "2024-05-17T13:51:39.104Z",
+              "EditorCaption": ""
             }
           ]
         }
