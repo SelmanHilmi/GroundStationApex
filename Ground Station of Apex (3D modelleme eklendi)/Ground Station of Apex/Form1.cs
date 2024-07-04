@@ -13,13 +13,15 @@ using OpenTK.Graphics;
 using OpenTK.Graphics.OpenGL;
 using System.Windows.Forms;
 
+
 namespace Ground_Station_of_Apex
 {
         public partial class Form1 : Form
         {
             float x = 0, y = 0, z = 0;
-            
-            public Form1()
+            float totalAngelx = 0, totalAngely = 0, totalAngelz = 0;
+
+        public Form1()
             {
                 InitializeComponent();
             }
@@ -33,7 +35,11 @@ namespace Ground_Station_of_Apex
                     cmbSerialPort.Items.Add(portAdi);
                 }
 
-            }
+            cmbBaudRate.Items.Add("2400");
+            cmbBaudRate.Items.Add("4800");
+            cmbBaudRate.Items.Add("9600");
+            cmbBaudRate.Items.Add("19200");
+        }
            private void glControl1_Paint(object sender, PaintEventArgs e)
             {
                 float step = 1.0f;
@@ -55,9 +61,9 @@ namespace Ground_Station_of_Apex
                 GL.Enable(EnableCap.DepthTest);
                 GL.DepthFunc(DepthFunction.Less);
 
-                GL.Rotate(z, 1.0, 0.0, 0.0);//ÖNEMLİ
-                GL.Rotate(y, 0.0, 1.0, 0.0);
-                GL.Rotate(x, 0.0, 0.0, 1.0);
+                GL.Rotate(totalAngelz, 1.0, 0.0, 0.0);//ÖNEMLİ
+                GL.Rotate(totalAngely, 0.0, 1.0, 0.0);
+                GL.Rotate(totalAngelx, 0.0, 0.0, 1.0);
 
                 silindir(step, topla, radius, 6, -6); //CİZİM
                
@@ -84,7 +90,8 @@ namespace Ground_Station_of_Apex
         {
             try
             {
-                serialPort1.BaudRate = Convert.ToInt32(txtBoundRate.Text);
+                serialPort1.BaudRate = Convert.ToInt32(cmbBaudRate.SelectedItem.ToString());
+                
                 serialPort1.PortName = cmbSerialPort.Text; //port adı
                 if (!serialPort1.IsOpen)
                 {
@@ -115,15 +122,25 @@ namespace Ground_Station_of_Apex
         {
             try
             {
+                
                 string[] paket;
                 string sonuc = serialPort1.ReadLine();
                 paket = sonuc.Split('/'); // (/) ile ayır
                 lblAx.Text = paket[0];
                 lblAy.Text = paket[1];
                 lblAz.Text = paket[2];
-                x = Convert.ToInt32(paket[0]);
-                y = Convert.ToInt32(paket[1]);
-                z = Convert.ToInt32(paket[2]);
+
+
+
+                x = Convert.ToSingle(paket[0]);
+                y = Convert.ToSingle(paket[1]);
+                z = Convert.ToSingle(paket[2]);
+
+                totalAngelx += x / 10;
+                totalAngely += y/10;
+                totalAngelz += z/10;
+                
+                
                 glControl1.Invalidate();
                 serialPort1.DiscardInBuffer();
             }
@@ -132,12 +149,33 @@ namespace Ground_Station_of_Apex
                 MessageBox.Show("Veri Alınamadı");
             }
         }
-      
-            private void glControl1_Load(object sender, EventArgs e)
+
+       
+
+        private void glControl1_Load(object sender, EventArgs e)
             {
                 GL.ClearColor(0.0f, 0.0f, 0.0f, 0.0f);
                 GL.Enable(EnableCap.DepthTest);
             }
+
+        private void btnKalibre_Click(object sender, EventArgs e)
+        {
+            timerForBoundRate.Stop();
+            totalAngelx = 0;
+            totalAngely = 0;
+            totalAngelz = 0;
+
+            lblAx.Text = "0";
+            lblAy.Text = "0";
+            lblAz.Text = "0";
+
+            btnEnd.Enabled = false;
+            btnStart.Enabled = true;
+
+            glControl1.Invalidate();
+
+        }
+
         private void glControl1_Resize(object sender, EventArgs e)
             {
                 GL.Viewport(0, 0, glControl1.Width, glControl1.Height);

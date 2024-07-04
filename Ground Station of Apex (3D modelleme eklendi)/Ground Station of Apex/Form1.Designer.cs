@@ -30,7 +30,6 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.txtBoundRate = new System.Windows.Forms.TextBox();
             this.cmbSerialPort = new System.Windows.Forms.ComboBox();
             this.lblSerialport = new System.Windows.Forms.Label();
             this.lblBoundrate = new System.Windows.Forms.Label();
@@ -42,17 +41,14 @@
             this.lblAy = new System.Windows.Forms.Label();
             this.lblAz = new System.Windows.Forms.Label();
             this.glControl1 = new OpenTK.GLControl();
+            this.btnKalibre = new System.Windows.Forms.Button();
+            this.cmbBaudRate = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
-            // 
-            // txtBoundRate
-            // 
-            resources.ApplyResources(this.txtBoundRate, "txtBoundRate");
-            this.txtBoundRate.Name = "txtBoundRate";
             // 
             // cmbSerialPort
             // 
-            this.cmbSerialPort.FormattingEnabled = true;
             resources.ApplyResources(this.cmbSerialPort, "cmbSerialPort");
+            this.cmbSerialPort.FormattingEnabled = true;
             this.cmbSerialPort.Name = "cmbSerialPort";
             // 
             // lblSerialport
@@ -112,11 +108,26 @@
             this.glControl1.Load += new System.EventHandler(this.glControl1_Load);
             this.glControl1.Paint += new System.Windows.Forms.PaintEventHandler(this.glControl1_Paint);
             // 
+            // btnKalibre
+            // 
+            resources.ApplyResources(this.btnKalibre, "btnKalibre");
+            this.btnKalibre.Name = "btnKalibre";
+            this.btnKalibre.UseVisualStyleBackColor = true;
+            this.btnKalibre.Click += new System.EventHandler(this.btnKalibre_Click);
+            // 
+            // cmbBaudRate
+            // 
+            resources.ApplyResources(this.cmbBaudRate, "cmbBaudRate");
+            this.cmbBaudRate.FormattingEnabled = true;
+            this.cmbBaudRate.Name = "cmbBaudRate";
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(46)))));
+            this.Controls.Add(this.cmbBaudRate);
+            this.Controls.Add(this.btnKalibre);
             this.Controls.Add(this.lblAz);
             this.Controls.Add(this.lblAy);
             this.Controls.Add(this.lblAx);
@@ -125,7 +136,6 @@
             this.Controls.Add(this.lblBoundrate);
             this.Controls.Add(this.lblSerialport);
             this.Controls.Add(this.cmbSerialPort);
-            this.Controls.Add(this.txtBoundRate);
             this.Controls.Add(this.glControl1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.MinimizeBox = false;
@@ -139,7 +149,6 @@
 
         #endregion
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
-        private System.Windows.Forms.TextBox txtBoundRate;
         private System.Windows.Forms.ComboBox cmbSerialPort;
         private System.Windows.Forms.Label lblSerialport;
         private System.Windows.Forms.Label lblBoundrate;
@@ -151,6 +160,8 @@
         private System.Windows.Forms.Label lblAy;
         private System.Windows.Forms.Label lblAz;
         private OpenTK.GLControl glControl1;
+        private System.Windows.Forms.Button btnKalibre;
+        private System.Windows.Forms.ComboBox cmbBaudRate;
     }
 }
 
