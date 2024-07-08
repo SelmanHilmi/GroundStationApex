@@ -30,8 +30,6 @@ namespace Ground_Station_of_Apex
             private void Form1_Load(object sender, EventArgs e)
             {
                 GL.ClearColor(Color.FromArgb(93, 240, 167)); //gl arka plan rengi
-                btnEnd.Enabled = false;
-                btnKalibre.Enabled = false;
 
 
             //portları comboboxa ekleme//
@@ -106,6 +104,7 @@ namespace Ground_Station_of_Apex
                 {
                     serialPort1.BaudRate = Convert.ToInt32(cmbBaudRate.SelectedItem.ToString());
                     serialPort1.PortName = cmbSerialPort.Text; //port adı
+                    
 
                 }
 
@@ -114,26 +113,53 @@ namespace Ground_Station_of_Apex
                     timerForBoundRate.Start();
                     serialPort1.Open();
                     //Message.Show("Port Açıldı");
-                    btnStart.Enabled = false;
-                    btnEnd.Enabled = true;
-                    btnKalibre.Enabled = true;
+                    picStart2.Enabled = false;
+                    picEnd2.Enabled = true;
+                    picKalibre.Enabled = true;
                 }
             }
             catch (Exception)
             {
                 MessageBox.Show("Bağlantı Kurulamadı");
                 timerForBoundRate.Stop();
-                btnEnd.Enabled = true;
-                btnStart.Enabled = false;
+                picEnd2.Enabled = true;
+                picStart2.Enabled = false;
+               
             }
+        }
+
+        private void picStart_MouseHover(object sender, EventArgs e)
+        {
+            picStart.Visible = false;
+            picStart2.Visible = true;
+        }
+
+        private void picStart_MouseLeave(object sender, EventArgs e)
+        {
+            picStart.Visible = true;
+            picStart2.Visible = false;
         }
 
         private void btnEnd_Click(object sender, EventArgs e) //port kapatma
         {
             serialPort1.Close();
             timerForBoundRate.Stop();
-            btnStart.Enabled = true;
-            btnEnd.Enabled = false;
+            picStart2.Enabled = true;
+            picEnd.Visible = true;
+            picEnd2.Visible = false;
+            picEnd2.Enabled = true;
+        }
+
+        private void picEnd_MouseHover(object sender, EventArgs e)
+        {
+            picEnd.Visible = false;
+            picEnd2.Visible = true;
+        }
+
+        private void picEnd2_MouseLeave(object sender, EventArgs e)
+        {
+            picEnd.Visible = true;
+            picEnd2.Visible = false;
         }
 
         private void timerForBoundRate_Tick(object sender, EventArgs e) //timer ile  veri alma
@@ -258,25 +284,27 @@ namespace Ground_Station_of_Apex
             lblAy.Text = "0";
             lblAz.Text = "0";
 
-            btnEnd.Enabled = false;
-            btnStart.Enabled = true;
+            picEnd2.Enabled = true;
+            picStart.Enabled = true;
 
             glControl1.Invalidate();
 
         }
 
-        private void glControl1_Resize(object sender, EventArgs e)      
-            {
-                GL.Viewport(0, 0, glControl1.Width, glControl1.Height);
-                GL.MatrixMode(MatrixMode.Projection);
-                GL.LoadIdentity();
-                Matrix4 perspective = Matrix4.CreatePerspectiveFieldOfView(1.04f, 4 / 3, 1, 10000);
-                GL.LoadMatrix(ref perspective);
-                GL.MatrixMode(MatrixMode.Modelview);
-            }
+        private void picKalibre_MouseHover(object sender, EventArgs e) //kalibrasyon butonu üzerine gelince rengi değiştir
+        {
+            picKalibre.Visible = false;
+            picKalibre2.Visible = true;
+        }
+
+        private void picKalibre_MouseLeave(object sender, EventArgs e) //kalibrasyon butonundan ayrılınca rengi eski haline döndür
+        {
+            picKalibre.Visible = true;
+            picKalibre2.Visible = false;
+        }
         /// ////////////////SİLİNDİR ÇİZİMİ////////////////////////
-      
-            private void silindir(float step, float topla, float radius, float dikey1, float dikey2)
+
+        private void silindir(float step, float topla, float radius, float dikey1, float dikey2)
             {
                 float eski_step = 0.1f;
                GL.Begin(BeginMode.Quads); //Yükseklik CIZIM DAİRENİN

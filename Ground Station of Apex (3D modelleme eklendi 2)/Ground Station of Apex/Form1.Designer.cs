@@ -33,12 +33,9 @@
             this.cmbSerialPort = new System.Windows.Forms.ComboBox();
             this.lblSerialport = new System.Windows.Forms.Label();
             this.lblBoundrate = new System.Windows.Forms.Label();
-            this.btnStart = new System.Windows.Forms.Button();
-            this.btnEnd = new System.Windows.Forms.Button();
             this.serialPort1 = new System.IO.Ports.SerialPort(this.components);
             this.timerForBoundRate = new System.Windows.Forms.Timer(this.components);
             this.glControl1 = new OpenTK.GLControl();
-            this.btnKalibre = new System.Windows.Forms.Button();
             this.cmbBaudRate = new System.Windows.Forms.ComboBox();
             this.picLogo = new System.Windows.Forms.PictureBox();
             this.picExit = new System.Windows.Forms.PictureBox();
@@ -50,6 +47,12 @@
             this.picExit2 = new System.Windows.Forms.PictureBox();
             this.picDown2 = new System.Windows.Forms.PictureBox();
             this.picFullScreen2 = new System.Windows.Forms.PictureBox();
+            this.picStart = new System.Windows.Forms.PictureBox();
+            this.picStart2 = new System.Windows.Forms.PictureBox();
+            this.picEnd2 = new System.Windows.Forms.PictureBox();
+            this.picEnd = new System.Windows.Forms.PictureBox();
+            this.picKalibre = new System.Windows.Forms.PictureBox();
+            this.picKalibre2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picExit)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picDown)).BeginInit();
@@ -57,6 +60,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.picExit2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picDown2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picFullScreen2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picStart)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picStart2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picEnd2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picEnd)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picKalibre)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picKalibre2)).BeginInit();
             this.SuspendLayout();
             // 
             // cmbSerialPort
@@ -68,28 +77,14 @@
             // lblSerialport
             // 
             resources.ApplyResources(this.lblSerialport, "lblSerialport");
-            this.lblSerialport.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.lblSerialport.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(199)))), ((int)(((byte)(236)))));
             this.lblSerialport.Name = "lblSerialport";
             // 
             // lblBoundrate
             // 
             resources.ApplyResources(this.lblBoundrate, "lblBoundrate");
-            this.lblBoundrate.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.lblBoundrate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(199)))), ((int)(((byte)(236)))));
             this.lblBoundrate.Name = "lblBoundrate";
-            // 
-            // btnStart
-            // 
-            resources.ApplyResources(this.btnStart, "btnStart");
-            this.btnStart.Name = "btnStart";
-            this.btnStart.UseVisualStyleBackColor = true;
-            this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
-            // 
-            // btnEnd
-            // 
-            resources.ApplyResources(this.btnEnd, "btnEnd");
-            this.btnEnd.Name = "btnEnd";
-            this.btnEnd.UseVisualStyleBackColor = true;
-            this.btnEnd.Click += new System.EventHandler(this.btnEnd_Click);
             // 
             // timerForBoundRate
             // 
@@ -103,13 +98,6 @@
             this.glControl1.VSync = false;
             this.glControl1.Load += new System.EventHandler(this.glControl1_Load);
             this.glControl1.Paint += new System.Windows.Forms.PaintEventHandler(this.glControl1_Paint);
-            // 
-            // btnKalibre
-            // 
-            resources.ApplyResources(this.btnKalibre, "btnKalibre");
-            this.btnKalibre.Name = "btnKalibre";
-            this.btnKalibre.UseVisualStyleBackColor = true;
-            this.btnKalibre.Click += new System.EventHandler(this.btnKalibre_Click);
             // 
             // cmbBaudRate
             // 
@@ -186,6 +174,51 @@
             this.picFullScreen2.Click += new System.EventHandler(this.picFullScreen_Click);
             this.picFullScreen2.MouseLeave += new System.EventHandler(this.picFullScreen_MouseLeave);
             // 
+            // picStart
+            // 
+            resources.ApplyResources(this.picStart, "picStart");
+            this.picStart.Name = "picStart";
+            this.picStart.TabStop = false;
+            this.picStart.MouseHover += new System.EventHandler(this.picStart_MouseHover);
+            // 
+            // picStart2
+            // 
+            resources.ApplyResources(this.picStart2, "picStart2");
+            this.picStart2.Name = "picStart2";
+            this.picStart2.TabStop = false;
+            this.picStart2.Click += new System.EventHandler(this.btnStart_Click);
+            this.picStart2.MouseLeave += new System.EventHandler(this.picStart_MouseLeave);
+            // 
+            // picEnd2
+            // 
+            resources.ApplyResources(this.picEnd2, "picEnd2");
+            this.picEnd2.Name = "picEnd2";
+            this.picEnd2.TabStop = false;
+            this.picEnd2.Click += new System.EventHandler(this.btnEnd_Click);
+            this.picEnd2.MouseLeave += new System.EventHandler(this.picEnd2_MouseLeave);
+            // 
+            // picEnd
+            // 
+            resources.ApplyResources(this.picEnd, "picEnd");
+            this.picEnd.Name = "picEnd";
+            this.picEnd.TabStop = false;
+            this.picEnd.MouseHover += new System.EventHandler(this.picEnd_MouseHover);
+            // 
+            // picKalibre
+            // 
+            resources.ApplyResources(this.picKalibre, "picKalibre");
+            this.picKalibre.Name = "picKalibre";
+            this.picKalibre.TabStop = false;
+            this.picKalibre.MouseHover += new System.EventHandler(this.picKalibre_MouseHover);
+            // 
+            // picKalibre2
+            // 
+            resources.ApplyResources(this.picKalibre2, "picKalibre2");
+            this.picKalibre2.Name = "picKalibre2";
+            this.picKalibre2.TabStop = false;
+            this.picKalibre2.Click += new System.EventHandler(this.btnKalibre_Click);
+            this.picKalibre2.MouseLeave += new System.EventHandler(this.picKalibre_MouseLeave);
+            // 
             // Form1
             // 
             this.AccessibleRole = System.Windows.Forms.AccessibleRole.Application;
@@ -193,13 +226,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(46)))));
+            this.Controls.Add(this.picKalibre);
+            this.Controls.Add(this.picStart);
+            this.Controls.Add(this.picStart2);
             this.Controls.Add(this.cmbBaudRate);
-            this.Controls.Add(this.btnKalibre);
             this.Controls.Add(this.lblAz);
             this.Controls.Add(this.lblAy);
             this.Controls.Add(this.lblAx);
-            this.Controls.Add(this.btnEnd);
-            this.Controls.Add(this.btnStart);
             this.Controls.Add(this.lblBoundrate);
             this.Controls.Add(this.lblSerialport);
             this.Controls.Add(this.cmbSerialPort);
@@ -211,6 +244,9 @@
             this.Controls.Add(this.picDown);
             this.Controls.Add(this.picDown2);
             this.Controls.Add(this.picFullScreen2);
+            this.Controls.Add(this.picEnd);
+            this.Controls.Add(this.picEnd2);
+            this.Controls.Add(this.picKalibre2);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
@@ -223,6 +259,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.picExit2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picDown2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picFullScreen2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picStart)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picStart2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picEnd2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picEnd)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picKalibre)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picKalibre2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -232,12 +274,9 @@
         private System.Windows.Forms.ComboBox cmbSerialPort;
         private System.Windows.Forms.Label lblSerialport;
         private System.Windows.Forms.Label lblBoundrate;
-        private System.Windows.Forms.Button btnStart;
-        private System.Windows.Forms.Button btnEnd;
         private System.IO.Ports.SerialPort serialPort1;
         private System.Windows.Forms.Timer timerForBoundRate;
         private OpenTK.GLControl glControl1;
-        private System.Windows.Forms.Button btnKalibre;
         private System.Windows.Forms.ComboBox cmbBaudRate;
         private System.Windows.Forms.PictureBox picLogo;
         private System.Windows.Forms.PictureBox picExit;
@@ -249,6 +288,12 @@
         private System.Windows.Forms.PictureBox picExit2;
         private System.Windows.Forms.PictureBox picDown2;
         private System.Windows.Forms.PictureBox picFullScreen2;
+        private System.Windows.Forms.PictureBox picStart;
+        private System.Windows.Forms.PictureBox picStart2;
+        private System.Windows.Forms.PictureBox picEnd2;
+        private System.Windows.Forms.PictureBox picEnd;
+        private System.Windows.Forms.PictureBox picKalibre;
+        private System.Windows.Forms.PictureBox picKalibre2;
     }
 }
 
