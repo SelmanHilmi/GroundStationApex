@@ -70,7 +70,10 @@
             // 
             // cmbSerialPort
             // 
+            this.cmbSerialPort.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(71)))), ((int)(((byte)(90)))));
+            this.cmbSerialPort.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             resources.ApplyResources(this.cmbSerialPort, "cmbSerialPort");
+            this.cmbSerialPort.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(199)))), ((int)(((byte)(236)))));
             this.cmbSerialPort.FormattingEnabled = true;
             this.cmbSerialPort.Name = "cmbSerialPort";
             // 
@@ -101,7 +104,11 @@
             // 
             // cmbBaudRate
             // 
+            this.cmbBaudRate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(71)))), ((int)(((byte)(90)))));
+            this.cmbBaudRate.Cursor = System.Windows.Forms.Cursors.Default;
+            this.cmbBaudRate.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             resources.ApplyResources(this.cmbBaudRate, "cmbBaudRate");
+            this.cmbBaudRate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(199)))), ((int)(((byte)(236)))));
             this.cmbBaudRate.FormattingEnabled = true;
             this.cmbBaudRate.Name = "cmbBaudRate";
             // 

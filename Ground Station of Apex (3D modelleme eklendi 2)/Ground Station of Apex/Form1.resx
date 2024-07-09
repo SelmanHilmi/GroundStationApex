@@ -117,9 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cmbSerialPort.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="cmbSerialPort.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
+    <value>Microsoft Tai Le, 9.75pt</value>
   </data>
   <data name="cmbSerialPort.Location" type="System.Drawing.Point, System.Drawing">
     <value>80, 814</value>
@@ -279,7 +283,6 @@
         KrkHwAynqAAAAABJRU5ErkJggg==
 </value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="picLogo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -877,21 +880,21 @@
   </data>
   <data name="picKalibre.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMAAAAp4XiDAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAA8UExURUVHWhsbKR8fLnbN83TI7XfQ90NDVnPF6h4eLEE+UCkqOVyFoTk6TG222DEyQ0pValBk
-        e2CRrmaiwVZ3kOpdU28AAAK7SURBVEhLpZbttqMgDEVRBIqIIr7/u84JCSgtvXdmzWl/1JJNPoCIenWa
-        X9P0Wtd989C2r+uM51kGRR0C4LXuXj3ktxV/dlCHTHNvz/L7PIlB0Y3AxWrF6k12fTpqyDzNm1gMtGFY
-        DBsyf3XBgqPKVGTaZayI6gV1k+w1IUbmJ+HtcYXzPMOVwMqfylJCRQVBVDIA4AjRaVO0xDNZhjBNktgI
-        eRBWnc7oxYm00TlRfPaIxqW51I291KB9iqbZs4w+EdQRtTNha16mWl0btHbL4pYamHP4mngQAcRvlI56
-        hOVPQzYL5RCuK+RoYLk4HUEshChKh7xIVXww5EK787BS44vixKd8CfHkpTnxqQRl8nGvh7cXpqD4BMHq
-        zPBSqxhpQh36BfTlbxIjcKOaEyQif3d6Q5CNknW3B0f1RpTqFqIi+6QkLqnW0UVViQIJ4pG+GEnl+aEJ
-        a15cQHV0VpyKTTTXuxOf4LpJkFVxKv7CoM49AUXeBkU6leG9IpTKZ1wKx6CJCbXhQ/KZkOsD4W3AkhAq
-        YjOy1+kDGeg/kG+BDbT9kv5ArWJfijzQLkvph0s51Fo3jC0b5vyLyHBe2EqO5O9usC27zT/KxlocTvkN
-        YfO3I0ZuBqH5lCPakjyVI3a3JG4jWXWQT84sj4noILd2YRO6JJiY2nZCcw0I1y2RnyF0pWdTorVBPktO
-        3JUU2nNpSvf5tu+tL3DXMjpmdP4c0V2pKGiXNRdpfXPLxl9LaY9OU4fV1M5phtwIabBQ18YBPYRuG1Bm
-        lh29LNAeozaUcrHHT7wsZIzDql5uBiW+cuTWr10Mj24rBCMdQy+7REf+osLdALXjYsxIz2CP8GF/2Dcf
-        DSGmM3jX4CUO5l+vCmBwIem2160vFxIS7kkDyNNd6aEOGV2u9p8vVwWCAa5w2+Y3XOH4WQaLXq8/JUMq
-        gBpq95gAAAAASUVORK5CYII=
+        iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMAAAAp4XiDAAAABGdBTUEAALGPC/xhBQAAADxQTFRFRUda
+        GxspHx8uds3zdMjtd9D3Q0NWc8XqHh4sQT5QKSo5XIWhOTpMbbbYMTJDSlVqUGR7YJGuZqLBVneQ6l1T
+        bwAAArtJREFUSEullu22oyAMRVEEiogivv+7zgkJKC29d2bNaX/Ukk0+gIh6dZpf0/Ra133z0Lav64zn
+        WQZFHQLgte5ePeS3FX92UIdMc2/P8vs8iUHRjcDFasXqTXZ9OmrIPM2bWAy0YVgMGzJ/dcGCo8pUZNpl
+        rIjqBXWT7DUhRuYn4e1xhfM8w5XAyp/KUkJFBUFUMgDgCNFpU7TEM1mGME2S2Ah5EFadzujFibTROVF8
+        9ojGpbnUjb3UoH2KptmzjD4R1BG1M2FrXqZaXRu0dsvilhqYc/iaeBABxG+UjnqE5U9DNgvlEK4r5Ghg
+        uTgdQSyEKEqHvEhVfDDkQrvzsFLji+LEp3wJ8eSlOfGpBGXyca+HtxemoPgEwerM8FKrGGlCHfoF9OVv
+        EiNwo5oTJCJ/d3pDkI2SdbcHR/VGlOoWoiL7pCQuqdbRRVWJAgnikb4YSeX5oQlrXlxAdXRWnIpNNNe7
+        E5/gukmQVXEq/sKgzj0BRd4GRTqV4b0ilMpnXArHoIkJteFD8pmQ6wPhbcCSECpiM7LX6QMZ6D+Qb4EN
+        tP2S/kCtYl+KPNAuS+mHSznUWjeMLRvm/IvIcF7YSo7k726wLbvNP8rGWhxO+Q1h87cjRm4GofmUI9qS
+        PJUjdrckbiNZdZBPziyPieggt3ZhE7okmJjadkJzDQjXLZGfIXSlZ1OitUE+S07clRTac2lK9/m2760v
+        cNcyOmZ0/hzRXakoaJc1F2l9c8vGX0tpj05Th9XUzmmG3AhpsFDXxgE9hG4bUGaWHb0s0B6jNpRyscdP
+        vCxkjMOqXm4GJb5y5NavXQyPbisEIx1DL7tER/6iwt0AteNizEjPYI/wYX/YNx8NIaYzeNfgJQ7mX68K
+        YHAh6bbXrS8XEhLuSQPI013poQ4ZXa72ny9XBYIBrnDb5jdc4fhZBoterz8lQyqAGmr3mAAAAABJRU5E
+        rkJggg==
 </value>
   </data>
   <data name="picKalibre.Location" type="System.Drawing.Point, System.Drawing">
@@ -920,22 +923,22 @@
   </data>
   <data name="picKalibre2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        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
+        iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMAAAAp4XiDAAAABGdBTUEAALGPC/xhBQAAAEJQTFRFenV/
+        enB4GBkndrHPdMftfnqEdM30Hh4seXN9dMbrdqbAdMrwd5iuZGFsNDNAVVJeRUNPeYOSb2p1dMPneI+h
+        db7gOvxKzgAAAw5JREFUSEuNlouaqyAMhEGERtR6f/9XPTMhUm27e3a236qY34QAAfe4q2kez2kUp5J1
+        mtly1x2h/RpjLAQUo4xPNF91RZrmOcJcxJxAuI1xhSszoS6IAhdzkwig54V5Ic3svgAUocmsoBcyISSz
+        +RCgsQZXkTFWQLzXe29XSl7BnciL8H7ZczigkPfovTWLrObHkEp42cOWUq9KaQu7KCRuyGarl2aqxBL6
+        1HZVberDAkZcSOkY1Q2R5nkSMrQJdmpc/nddagckMqB9W2Yy6sVbriTAA6xaRNa2iIv3eMoRRNtu0TEF
+        QGpYIPjxPm152JdlH/LGT6Bl63EBEhmaQ1hnVFmJdAzIk0emvY/DoW0EiUiEGyDmxA+FyPE1Gs5H/U4R
+        EbhBYMXAL/xW1w8XgPKDBmWIgxvXzOaEHenScA5dVbgiEicgZRRloY8U3gjNrhFtRy8rAlv1nUfMnbq+
+        60LY2yf+KIlHj1F7D4sfMnuIiMTZla74hRF3y7uTQ+dAkQaGzriSYma468M7AS8X8TUWgSu91658SZfs
+        w3D+9jKtKoJUdmn/QLjMqkqLACIiRPovyDfZ4vo7IjWw7335oopo9/NfkPX3JH8Kc9mGUn4Yyg9xKM8F
+        phPm/5FxwjzW2pk/ufFPZ4sSkx9E/z75Kazp+iEuS3dWJHXzLTQ/hPByHucGC7lEJnHTRZbv1V9QRPp0
+        1E1KtMKcK3nX3iRUxwoJqieyX2cf1zHLhbk5M9B3edGKhMK0ZDyyjUWWEi1K1U2ZAogutQG1D5Uv4BYN
+        jFYN1Il6sYqhDEzwQ22l+vJ05gTLi+WYCEuZMTtLKj9cxPu01QnOWmkIEm2NqI7YHwyAsHOgepZ3GHgS
+        5qV2hznKB+PihpT6I9f8lY5ABSFjsQFyC3oO5WHB0JfWF3EiVwbhMcFMdG1BmTyJinDP+GHbhyS60g+q
+        ItDIw4gZXcVKfO7g0BVpZhx5ricYCo9RboeYK4J2QnrwMfGstE63U88dIYTTFcxOOT2R2UvTGwII1DyN
+        47iO4zTjLPYGPB7/AHXULrXUBmnWAAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="picKalibre2.Location" type="System.Drawing.Point, System.Drawing">
