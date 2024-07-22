@@ -291,7 +291,6 @@ C:\Users\selma\OneDrive\Belgeler\GitHub\yeristasyonu2\Ground Station of Apex (3D
 C:\Users\selma\OneDrive\Belgeler\GitHub\yeristasyonu2\Ground Station of Apex (3D modelleme eklendi 2)\Ground Station of Apex\bin\Debug\Ground Station of Apex.pdb
 C:\Users\selma\OneDrive\Belgeler\GitHub\yeristasyonu2\Ground Station of Apex (3D modelleme eklendi 2)\Ground Station of Apex\bin\Debug\ff-Adlm-GN\Ground Station of Apex.resources.dll
 C:\Users\selma\OneDrive\Belgeler\GitHub\yeristasyonu2\Ground Station of Apex (3D modelleme eklendi 2)\Ground Station of Apex\bin\Debug\tr-TR\Ground Station of Apex.resources.dll
-C:\Users\selma\OneDrive\Belgeler\GitHub\yeristasyonu2\Ground Station of Apex (3D modelleme eklendi 2)\Ground Station of Apex\bin\Debug\Emgu.CV.dll
 C:\Users\selma\OneDrive\Belgeler\GitHub\yeristasyonu2\Ground Station of Apex (3D modelleme eklendi 2)\Ground Station of Apex\bin\Debug\EntityFramework.dll
 C:\Users\selma\OneDrive\Belgeler\GitHub\yeristasyonu2\Ground Station of Apex (3D modelleme eklendi 2)\Ground Station of Apex\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\selma\OneDrive\Belgeler\GitHub\yeristasyonu2\Ground Station of Apex (3D modelleme eklendi 2)\Ground Station of Apex\bin\Debug\GMap.NET.Core.dll
@@ -319,7 +318,6 @@ C:\Users\selma\OneDrive\Belgeler\GitHub\yeristasyonu2\Ground Station of Apex (3D
 C:\Users\selma\OneDrive\Belgeler\GitHub\yeristasyonu2\Ground Station of Apex (3D modelleme eklendi 2)\Ground Station of Apex\bin\Debug\System.Text.Json.dll
 C:\Users\selma\OneDrive\Belgeler\GitHub\yeristasyonu2\Ground Station of Apex (3D modelleme eklendi 2)\Ground Station of Apex\bin\Debug\System.Threading.Tasks.Extensions.dll
 C:\Users\selma\OneDrive\Belgeler\GitHub\yeristasyonu2\Ground Station of Apex (3D modelleme eklendi 2)\Ground Station of Apex\bin\Debug\System.ValueTuple.dll
-C:\Users\selma\OneDrive\Belgeler\GitHub\yeristasyonu2\Ground Station of Apex (3D modelleme eklendi 2)\Ground Station of Apex\bin\Debug\Emgu.CV.xml
 C:\Users\selma\OneDrive\Belgeler\GitHub\yeristasyonu2\Ground Station of Apex (3D modelleme eklendi 2)\Ground Station of Apex\bin\Debug\EntityFramework.xml
 C:\Users\selma\OneDrive\Belgeler\GitHub\yeristasyonu2\Ground Station of Apex (3D modelleme eklendi 2)\Ground Station of Apex\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\selma\OneDrive\Belgeler\GitHub\yeristasyonu2\Ground Station of Apex (3D modelleme eklendi 2)\Ground Station of Apex\bin\Debug\LiveCharts.pdb

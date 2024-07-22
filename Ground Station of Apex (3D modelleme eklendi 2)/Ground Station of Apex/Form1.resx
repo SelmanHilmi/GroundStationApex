@@ -357,7 +357,7 @@
     <value>NoControl</value>
   </data>
   <data name="lblAx.Location" type="System.Drawing.Point, System.Drawing">
-    <value>77, 727</value>
+    <value>99, 721</value>
   </data>
   <data name="lblAx.Size" type="System.Drawing.Size, System.Drawing">
     <value>29, 13</value>
@@ -387,7 +387,7 @@
     <value>NoControl</value>
   </data>
   <data name="lblAy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>139, 727</value>
+    <value>161, 721</value>
   </data>
   <data name="lblAy.Size" type="System.Drawing.Size, System.Drawing">
     <value>29, 13</value>
@@ -417,7 +417,7 @@
     <value>NoControl</value>
   </data>
   <data name="lblAz.Location" type="System.Drawing.Point, System.Drawing">
-    <value>192, 727</value>
+    <value>214, 721</value>
   </data>
   <data name="lblAz.Size" type="System.Drawing.Size, System.Drawing">
     <value>29, 13</value>
@@ -1235,9 +1235,6 @@
         AAAABwAA8AAAAAAPAAD4AAAAAB8AAPgAAAAAHwAA/AAAAAA/AAD+AAAAAH8AAP+AAAAB/wAA/8AAAAP/
         AAD/4AAAB/8AAP/4AAAf/wAA//8AAP//AAA=
 </value>
-  </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>Off</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
