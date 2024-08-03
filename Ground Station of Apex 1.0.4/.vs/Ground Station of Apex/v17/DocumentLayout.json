@@ -1,0 +1,90 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\yer istasyonu yedekleri\\Ground Station of Apex 1.0.4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D6571522-7605-44F8-8D4F-80868EBDE661}|Ground Station of Apex\\Ground Station of Apex.csproj|d:\\yer istasyonu yedekleri\\ground station of apex 1.0.4\\ground station of apex\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D6571522-7605-44F8-8D4F-80868EBDE661}|Ground Station of Apex\\Ground Station of Apex.csproj|solutionrelative:ground station of apex\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6571522-7605-44F8-8D4F-80868EBDE661}|Ground Station of Apex\\Ground Station of Apex.csproj|D:\\yer istasyonu yedekleri\\Ground Station of Apex 1.0.4\\ground station of apex\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6571522-7605-44F8-8D4F-80868EBDE661}|Ground Station of Apex\\Ground Station of Apex.csproj|solutionrelative:ground station of apex\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6571522-7605-44F8-8D4F-80868EBDE661}|Ground Station of Apex\\Ground Station of Apex.csproj|D:\\yer istasyonu yedekleri\\Ground Station of Apex 1.0.4\\ground station of apex\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6571522-7605-44F8-8D4F-80868EBDE661}|Ground Station of Apex\\Ground Station of Apex.csproj|solutionrelative:ground station of apex\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\yer istasyonu yedekleri\\Ground Station of Apex 1.0.4\\Ground Station of Apex\\Form1.cs",
+              "RelativeDocumentMoniker": "Ground Station of Apex\\Form1.cs",
+              "ToolTip": "D:\\yer istasyonu yedekleri\\Ground Station of Apex 1.0.4\\Ground Station of Apex\\Form1.cs [Design]",
+              "RelativeToolTip": "Ground Station of Apex\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T11:25:19.008Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\yer istasyonu yedekleri\\Ground Station of Apex 1.0.4\\Ground Station of Apex\\Form1.cs",
+              "RelativeDocumentMoniker": "Ground Station of Apex\\Form1.cs",
+              "ToolTip": "D:\\yer istasyonu yedekleri\\Ground Station of Apex 1.0.4\\Ground Station of Apex\\Form1.cs",
+              "RelativeToolTip": "Ground Station of Apex\\Form1.cs",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAwwHAAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T13:51:39.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "D:\\yer istasyonu yedekleri\\Ground Station of Apex 1.0.4\\Ground Station of Apex\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Ground Station of Apex\\Form1.Designer.cs",
+              "ToolTip": "D:\\yer istasyonu yedekleri\\Ground Station of Apex 1.0.4\\Ground Station of Apex\\Form1.Designer.cs",
+              "RelativeToolTip": "Ground Station of Apex\\Form1.Designer.cs",
+              "ViewState": "AQIAALoAAAAAAAAAAAApwNMAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T00:02:50.733Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
